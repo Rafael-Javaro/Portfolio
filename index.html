@@ -16,6 +16,16 @@
             color: snow;
             font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
         }
+        #fotoPerfil {
+            float: left;
+            margin-right: 50px;
+            margin-left: 20px;
+            border-radius: 20px;
+            border-style: groove;
+        }
+        #cabeçalho {
+            margin-left: 100px;
+        }
         .pictures {
             text-align: center;
             border-radius: 20px;
@@ -30,30 +40,27 @@
         .livroPublicado {
             text-align: center;
         }
-        #fotoPerfil {
-            float: left;
-            margin-right: 50px;
-            margin-left: 20px;
-            border-radius: 20px;
-            border-style: groove;
+        .socialMedia {
+            display: inline-flex;
+            text-align: center;
         }
-        #cabeçalho {
-            margin-left: 100px;
-        }
+        
     </style>
 </head>
 
 <body>
-    <a id="top"><img id="fotoPerfil" src="photos/fotoPerfil.png" alt="Rafael Javaro - Foto de Perfil Atualizada" width="200px"></a>
+
+    <a id="top"><img id="fotoPerfil" src="photos/fotoPerfil.png" alt="Rafael Javaro - Foto de Perfil Atualizada" width= 200px></a>
     <div id="cabeçalho"><h1><u>Rafael Javaro</u></h1><h2>07/ Fe. /1991</h2>
     <ul>
        <a href="#en"><li>Short Background</li></a><br>
        <a href="#pt"><li>Histórico Resumido</li></a><br>
-       <a href="#lv"><li>Livro Publicado/Published Book</li></a><br>
+       <a href="#lv"><li>Published Book/Livro Publicado</li></a><br>
        <a href="#stP"><li>Strong Points/Qualidades</li></a><br> 
        <a href="#pic"><li>Pictures/Fotos</li></a><br>
     </ul>
     </div>
+
     <hr><br>
     <div class="pictures"><a id="pic">
     <img src="photos/picture3.png" alt="Foto, evento particular para funcionãrios do Google, Irl, 2017" width="46%">
@@ -71,20 +78,24 @@
     <li id="strong_point"><b><u>Fast Learner / Rápida absorção de Conteúdo</u></b></li><br>
     <li>Easy integration for <b>Team Work</b> / Fácil adaptação para trabalhos em <b>EQUIPE</b> </li></b></div>
     <br><hr>
+
     <div class="livroPublicado">
-    <a id="lv"><h2><u>Livro Publicado/Published Book</u></h2></a>
+    <a id="lv"><h2><u>Published Book/Livro Publicado</u></h2></a>
     <img src="photos/capa_livro.png" alt="Capa do Livro Baterista Criativo, o Segredo da Evolução Contínua 2.0" width="200px"><br><br>
     <a href="https://hotmart.com/product/bateristacriativo" target="_blank"><li>Baterista Criativo: O segredo da evolução <strong>CONTÍNUA</strong></li></a>
     </div>
     <br>
     <hr>
-    <h2><u>Social Media</u></h2>  
+
+    <div class="socialMedia">
+    <h2><u>Social Media</u></h2>
     <a href="https://www.instagram.com/rafael.javaro/" target="_blank">
-    <img src="instagram.png" alt="ícone Instagram" width="100px"><li>@rafael.javaro</li></a>
-    <br><br>
-    <a href="https://www.youtube.com/rafaeljavaro" target="_blank"><img src="youtube icone.png" alt="ícone youtube" width="90px"><li>youtube.com/rafaeljavaro</li></a>
-    <br><hr>
-    <br>
+    <img class="insta" src="instagram.png" alt="ícone Instagram" width="110px"><li>@rafael.javaro</li></a>
+    <br><br><br>
+    <a href="https://www.youtube.com/rafaeljavaro" target="_blank"><img class="youtube" src="youtube icone.png" alt="ícone youtube" width="90px"><li>youtube.com/rafaeljavaro</li></a><br>
+    </div><br><br>
+    <hr><br>
+
     <img src="photos/foto_perfil2.png" alt="Rafael Javaro - Foto Perfil 2" width="180px">
     <h2><u>Rafael Augusto Corrêa Javaro</u></h2>
     <p id="en"><u>English</u>:<br><br>Hi! I'm Rafael Javaro, 29 yo. Natural from Brazil.<br>I lived in Ireland for 18 months and now I'm back to my home town, Avaré, on the country-side of the state of São Paulo.<br>I've been a musician my hole life, and that gave me the oportunity to work with a tons of <strong>amazing people</strong> and I also got the chance to experience lots of different cultures. Now I'm embracing a new challeng of becoming a <i>Full-Stack</i> Software Developer.
