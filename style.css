@@ -96,4 +96,8 @@ li {
     margin-left: 25%;
     text-align: center;
     max-width: 50%;
-}  
+}
+.footer {
+    text-align: center;
+    border-right: 25%;
+}
